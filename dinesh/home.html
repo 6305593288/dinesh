@@ -1,0 +1,51 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta http-equiv=X-UA-Compatible content=IE=edge
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleMovie Search Websitetitle
+    link rel=stylesheet href=httpscdnjs.cloudflare.comajaxlibsfont-awesome6.0.0-beta3cssall.min.css integrity=sha512-Fo3rlrZjk7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26zrn20ImR1DfuLWnOo7aBA== crossorigin=anonymous referrerpolicy=no-referrer 
+    link rel = stylesheet href = main.css
+    script type=module src=.homepage.jsscript
+head
+body
+    div class=wrapper
+        div class=user-info
+            div class=container
+                div class=user-details
+                    pWelcome, span id=user-first-namespan id=loggedUserFNamespanspan span id=user-last-namespan id=loggedUserLNamespanspanp
+                    p id=user-emailEmail span id=loggedUserEmailspanp
+                div
+                button id=logoutLogoutbutton
+            div
+        div
+    div
+    div class = wrapper
+        div class = logo
+            div class = container
+                pAndspanflix.spanp
+            div
+        div
+
+        div class = search-container
+            div class = search-element
+                h3Search Movieh3
+                input type = text class = form-control placeholder=Search Movie Title ... id = movie-search-box onkeyup=findMovies() onclick = findMovies()
+                div class = search-list id = search-list
+
+                div
+            div
+        div
+
+        div class = container
+            div class = result-container
+                div class = result-grid id = result-grid
+                div
+            div
+        div
+    div
+
+    script src = app.jsscript
+body
+html
